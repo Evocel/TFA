@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:700);
+
+* {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-family: 'Ubuntu Mono', serif;
+}
+
+li {
+	list-style: none;
+	display: inline;
+}
+
+.choose {
+	margin: auto;
+	width: 1150px;
+}
+
+hr {
+	clear: both;
+}
+
+.separator {
+	width: 100%;
+	height: 20px;
+	background-color: #204a87;
+	color: #FAFAFA;
+	text-indent: 2em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.content {
+	width: 100%;
+	height: 30px;
+	background-color: #fafafa;
+	color: #000000;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.content p {
+	padding-left: 3em;
+}
+
+.box {
+	text-decoration: none;
+	float: left;
+	display: block;
+	padding: 10px 20px;
+	color: black;
+	border-radius: 50%;
+	border: 2px solid #AFAFAF;
+	height: 162px;
+	width: 162px;
+	vertical-align: middle;
+	text-align: center;
+	margin: 10px 10px 20px;
+	box-shadow: 0;
+	-webkit-box-shadow: 0;
+	-moz-box-shadow: 0;
+	transition: all 1s;
+}
+
+.box:HOVER {
+	-webkit-box-shadow: 4px 11px 16px 1px rgba(0, 0, 0, 0.62);
+	-moz-box-shadow: 4px 11px 16px 1px rgba(0, 0, 0, 0.62);
+	box-shadow: 4px 11px 16px 1px rgba(0, 0, 0, 0.62);
+}
